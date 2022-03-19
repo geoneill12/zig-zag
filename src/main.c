@@ -114,7 +114,7 @@ void main() {
 		/********** Fill in previous dot location with background color **********/
 		draw_dot( old_XCOR, old_YCOR, BG_COLOR );
 
-		/********** For loop to slow down the frame rate, and to ready button inputs  **********/
+		/********** A "for loop" to slow down the frame rate, and to read button inputs  **********/
 		MAX_COUNT = (*SWITCHES)*10000;
 		FLAG = 0;
 		buttons = 0;
