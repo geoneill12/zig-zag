@@ -16,7 +16,7 @@ The game can be reset by pressing the LEFT, CENTER, and RIGHT buttons at the sam
 
 # Hardware Development
 
-The hardware modules for this project included the standard OTTER MCU with interrupts, and the VGA 80x60 Driver.
+The hardware modules for this project includ the standard OTTER MCU with interrupts, and the VGA 80x60 Driver.
 
 # Software Development
 
