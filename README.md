@@ -8,7 +8,7 @@ The game is played using the switches and buttons on the BASYS3 board. The UP bu
 
 # Adjusting Speed
 
-The switches on the BASYS3 board can be used to control the cursor's speed. The switches are constantly read by the OTTER as a binary value. A value of 0 (all switches down) is the fastest possible speed. A value of 65535 (all switches up) is the slowest possible speed. A recommended speed is with the 3 left-most switches up.
+The switches on the BASYS3 board can be used to control the cursor's speed. The switches are constantly interpreted by the OTTER as a binary value. A value of 0 (all switches down) is the fastest possible speed. A value of 65535 (all switches up) is the slowest possible speed. A recommended speed is with the 3 right-most switches up.
 
 # Resetting Game
 
