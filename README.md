@@ -34,7 +34,7 @@ For this reason, I had to manually write hundreds of lines of code that could ha
 
 # Ideas For Additional Features
 
-If future 233 students are interested in improving this game, there are a number of features I had considered adding if there had been more time:
+If future 233 students are interested in improving this game, there are a number of features I had considered adding:
 1. More complex layout of walls, or make the layout change periodically while playing.
 2. Timer, or some way of "keeping score".
 3. Obstacles that must be avoided.
