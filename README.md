@@ -24,5 +24,17 @@ The software for this game was developed entirely in C. 4 functions were borrowe
 
 # Video Demonstration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/viKIo6I3PBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=viKIo6I3PBU
 
+# Challenges Encountered
+
+There were several strange issues that came up while writing C code for this game. I was unable to use basic features of C, such as arrays, to quickly and efficiently implement the game features that I wanted. The code would compile just fine, and through the use of the GDB Debugger tool, I could verify that the logic of my code was doing what I wanted it to (i.e., variables had values I expected them to have, etc.). However after generating the bitstream and connecting the OTTER to my moniter, the game would be doing something completely different. Without the use of a specialized OTTER programmger/debugger tool, pinpointing the source of these problems was extremely difficult. Every change to the code, no matter how small, meant waiting 10 minutes to generate a new bitstream.
+
+For this reason, I had to manually write hundreds of lines of code that could have been implemented very easily using an array and loops. For instance, I had to manually place every single red dot, and every single green line. Then, I had to use about 70 "if" statements to properly implement the "bounce" feature to prevent the cursor from from off the screen or through the green walls (every if statement checks the cursor's position and direction of movement, and toggles the direction if necessary).
+
+# Ideas For Additional Features
+
+If future 233 students are interested in improving this game, there are a number of features I had considered adding if there had been more time:
+1. More complex layout of walls, or make the layout change periodically while playing.
+2. Timer, or some way of "keeping score".
+3. Obstacles that must be avoided.
